@@ -6,7 +6,7 @@
 //  COURSE: COMPILER DESIGN - CAT 2 INDIVIDUAL ASSESSMENT
 //  NAME: MAI JOCK (153-793)
 // =============================================================================
-//  PROJECT: LEXICAL ANALYZER FOR MINI-C COMPILER
+//  PROJECT TITLE: LEXICAL ANALYZER FOR MINI-C COMPILER
 // =============================================================================
 
 #include <iostream>
@@ -25,7 +25,7 @@ using namespace std;
 using namespace chrono;
 
 // =============================================================================
-//  SECTION 1: TOKEN DEFINITIONS
+                    //  TOKEN DEFINITIONS
 // =============================================================================
 
 enum class TokenType {
@@ -133,7 +133,7 @@ struct Token {
 };
 
 // =============================================================================
-//  SECTION 2: SYMBOL TABLE
+                    //  SYMBOL TABLE
 // =============================================================================
 
 struct SymbolEntry {
@@ -244,7 +244,7 @@ public:
 };
 
 // =============================================================================
-//  SECTION 3: STATISTICS
+                        //  STATISTICS
 // =============================================================================
 
 class Statistics {
@@ -334,7 +334,7 @@ public:
 };
 
 // =============================================================================
-//  SECTION 4: LEXICAL ANALYZER
+                    // LEXICAL ANALYZER
 // =============================================================================
 
 class LexicalAnalyzer {
@@ -785,7 +785,6 @@ public:
             report << "======================================================================\n\n";
             report << "  Student: Mai Jock (153-793)\n";
             report << "  Course: Compiler Design\n";
-            report << "  Date: 24th July 2026\n\n";
             report << "  --------------------------------------------------------------------\n";
             report << "  ANALYSIS SUMMARY\n";
             report << "  --------------------------------------------------------------------\n";
@@ -848,7 +847,7 @@ public:
 };
 
 // =============================================================================
-//  SECTION 5: ADVANCED MAIN FUNCTION
+                    // ADVANCED MAIN FUNCTION
 // =============================================================================
 
 int main() {
@@ -867,7 +866,6 @@ int main() {
     cout << "  |        +------------------------------------------------------+    |\n";
     cout << "  |        |  STUDENT : MAI JOCK (153-793)                        |    |\n";
     cout << "  |        |  COURSE  : COMPILER DESIGN                           |    |\n";
-    cout << "  |        |  DATE   : 24TH JULY 2026                             |    |\n";
     cout << "  |        |  UNIVERSITY : CAVENDISH UNIVERSITY UGANDA            |    |\n";
     cout << "  |        +------------------------------------------------------+    |\n";
     cout << "  |                                                                    |\n";
@@ -909,14 +907,14 @@ int main() {
     
     cout << "\n";
     cout << "  ----------------------------------------------------------------------\n";
-    cout << "  [INPUT] SOURCE CODE                                                   \n";
+    cout << "  SOURCE CODE                                                            \n";
     cout << "  ----------------------------------------------------------------------\n";
     cout << sourceCode;
     cout << "  ----------------------------------------------------------------------\n";
     
     cout << "\n";
     cout << "  ----------------------------------------------------------------------\n";
-    cout << "  [PROCESSING] Running Lexical Analysis...                             \n";
+    cout << "  Running Lexical Analysis...                                            \n";
     cout << "  ----------------------------------------------------------------------\n";
     cout << "    >> Applying 15-State DFA...                                       \n";
     cout << "    >> Using 2-Character Lookahead Buffer...                         \n";
@@ -932,28 +930,28 @@ int main() {
     lexer.generateAllExports();
     
     cout << "\n";
-    cout << "  ----------------------------------------------------------------------\n";
-    cout << "  [OUTPUT] Files Generated                                            \n";
-    cout << "  ----------------------------------------------------------------------\n";
-    cout << "    [OK] compiler_report.txt - Comprehensive analysis report            \n";
-    cout << "    [OK] statistics.txt     - Statistics report                         \n";
-    cout << "    [OK] symbol_table.txt   - Symbol table output                       \n";
-    cout << "    [OK] tokens.txt         - Complete token list                       \n";
-    cout << "    [OK] errors.txt         - Error report                              \n";
-    cout << "  ----------------------------------------------------------------------\n";
+    cout << "  -----------------------------------------------------------------\n";
+    cout << "               Files Generated                                      \n";
+    cout << "  ------------------------------------------------------------------\n";
+    cout << "     compiler_report.txt - Comprehensive analysis report            \n";
+    cout << "     statistics.txt     - Statistics report                         \n";
+    cout << "     symbol_table.txt   - Symbol table output                       \n";
+    cout << "     tokens.txt         - Complete token list                       \n";
+    cout << "     errors.txt         - Error report                              \n";
+    cout << "  ------------------------------------------------------------------\n";
     
     cout << "\n";
     cout << "  ======================================================================\n";
     cout << "  |                                                                    |\n";
-    cout << "  |                    [SUCCESS] ANALYSIS COMPLETED                   |\n";
+    cout << "  |                        ANALYSIS COMPLETED                          |\n";
     cout << "  |                                                                    |\n";
-    cout << "  |                    All tests passed with 0 errors!                |\n";
+    cout << "  |                    All tests passed with 0 errors!                 |\n";
     cout << "  |                                                                    |\n";
     cout << "  ======================================================================\n";
     
     cout << "\n";
     cout << "  ----------------------------------------------------------------------\n";
-    cout << "  [FEATURES DEMONSTRATED]                                              \n";
+    cout << "              FEATURES DEMONSTRATED                                     \n";
     cout << "  ----------------------------------------------------------------------\n";
     cout << "    - 15-State DFA for Token Recognition                               \n";
     cout << "    - 12 Token Categories Supported                                    \n";
