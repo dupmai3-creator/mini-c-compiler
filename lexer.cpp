@@ -4,8 +4,7 @@
 //  DEPARTMENT OF COMPUTER SCIENCE
 // =============================================================================
 //  COURSE: COMPILER DESIGN - CAT 2 INDIVIDUAL ASSESSMENT
-//  STUDENT: MAI JOCK (153-793)
-//  DATE: 24TH JULY 2026
+//  NAME: MAI JOCK (153-793)
 // =============================================================================
 //  PROJECT: LEXICAL ANALYZER FOR MINI-C COMPILER
 // =============================================================================
