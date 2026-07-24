@@ -964,13 +964,5 @@ int main() {
     cout << "    - Comprehensive Statistics Collection                              \n";
     cout << "    - File Export (5 output files)                                     \n";
     cout << "  ----------------------------------------------------------------------\n";
-    
-    cout << "\n";
-    cout << "  ----------------------------------------------------------------------\n";
-    cout << "  STUDENT: Mai Jock (153-793)  |  DATE: 24th July 2026               \n";
-    cout << "  TARGET: 20/20                 |  STATUS: READY FOR SUBMISSION      \n";
-    cout << "  ----------------------------------------------------------------------\n";
-    cout << "\n";
-    
     return 0;
 }
