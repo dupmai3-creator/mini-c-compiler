@@ -1,10 +1,8 @@
 # Mini-C Compiler - Lexical Analyzer
 
-## Project Information
-- **Student:** Mai Jock (153-793)
+- **NAME:** Mai Jock (153-793)
 - **Course:** Compiler Design
 - **University:** Cavendish University Uganda
-- **Date:** 24th July 2026
 
 ## Project Overview
 A complete lexical analyzer for a subset of the C programming language, implementing a **15-state DFA** with **2-character lookahead** for accurate token recognition.
